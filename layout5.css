@@ -1,0 +1,99 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 120px 1fr 120px;
+}
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.block1 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
+
+.block2 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
+
+.block3 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
+
+.block4 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
+
+main {
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.block5 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    align-self: flex-end;
+}
+
+.block6 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    align-self: flex-end;
+}
+
+.block7 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    align-self: flex-end;
+}
+
+.block8 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    align-self: flex-end;
+}
+
+footer {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.block9 {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(60, 0, 255);
+    align-content: flex-end;
+}
+
+.block10 {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    background-color: pink;
+    align-self: center;
+}
