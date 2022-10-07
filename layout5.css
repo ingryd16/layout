@@ -1,99 +1,38 @@
-body {
+
+body{
     height: 100vh;
     display: grid;
-    grid-template-rows: 120px 1fr 120px;
+    grid-template-rows:.5fr 3.5fr .5fr;
 }
 
-header {
-    background-color: yellow;
+header{
+    background-color: rgb(228, 228, 149);
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
 }
 
-.block1 {
-    width: 80px;
-    height: 80px;
-    background-color: red;
-}
-
-.block2 {
-    width: 80px;
-    height: 80px;
-    background-color: red;
-}
-
-.block3 {
-    width: 80px;
-    height: 80px;
-    background-color: red;
-}
-
-.block4 {
-    width: 80px;
-    height: 80px;
-    background-color: red;
-}
-
-main {
-    background-color: chartreuse;
+main{
+    background-color:rgb(201, 132, 132);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-size: 2rem;
+}
+
+footer{
+    background-color: rgb(140, 165, 233);
+    display: flex;
+    justify-content: flex-end;
+    gap: 220px;
     align-items: center;
     font-size: 2rem;
 }
 
-.block5 {
+li{
+    background-color:red;
     width: 80px;
     height: 80px;
-    background-color: red;
-    align-self: flex-end;
-}
-
-.block6 {
-    width: 80px;
-    height: 80px;
-    background-color: red;
-    align-self: flex-end;
-}
-
-.block7 {
-    width: 80px;
-    height: 80px;
-    background-color: red;
-    align-self: flex-end;
-}
-
-.block8 {
-    width: 80px;
-    height: 80px;
-    background-color: red;
-    align-self: flex-end;
-}
-
-footer {
-    background-color: blueviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-}
-
-.block9 {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: right;
-    background-color: rgb(60, 0, 255);
-    align-content: flex-end;
-}
-
-.block10 {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: right;
-    background-color: pink;
-    align-self: center;
+    list-style: none;
 }
